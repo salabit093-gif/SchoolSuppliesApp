@@ -61,6 +61,7 @@ Built with **Flutter** for smooth cross-platform performance and integrated with
 |--------|------------|
 | 💻 **Full Project Code** | Complete Flutter source code including all screens and logic |
 | 🧠 **Assets & Resources** | TensorFlow Lite model, datasets, screenshots, and project assets |
+| ![Home](https://raw.githubusercontent.com/salabit093-gif/SchoolSuppliesApp/main/Home.jpg) | ![Gallery](https://raw.githubusercontent.com/salabit093-gif/SchoolSuppliesApp/main/Gallery.jpg) | ![Camera](https://raw.githubusercontent.com/salabit093-gif/SchoolSuppliesApp/main/Camera.jpg) | ![History](https://raw.githubusercontent.com/salabit093-gif/SchoolSuppliesApp/main/History.jpg) |
 
 ---
 
