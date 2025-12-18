@@ -1,32 +1,57 @@
+<div align="center">
+
 # 🎒 SchoolLens
+### AI-Powered School Supplies Identifier
 
-## AI-Powered School Supplies Identifier
-
-![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
 **ITE120 Final Project · CSUCC**
 
-**Regie A. Salabit**  
-IT Student | Caraga State University – Cabadbaran Campus (CSUCC)
+[Features](#-features) • [Screenshots](#-screenshots) • [Tech Stack](#-tech-stack) • [Installation](#-installation)
 
----
+</div>
 
-## 📘 About
+<br>
 
-**SchoolLens** is an intelligent mobile application that uses **TensorFlow Lite** to identify
-**school supplies** (such as notebooks, pens, pencils, erasers, rulers, calculators) using a
-smartphone camera.
+<div align="center">
 
-The app is built with **Flutter** for smooth cross-platform performance and integrated with
-**Firebase** for real-time cloud synchronization.
+### Regie A. Salabit
+**IT Student | Caraga State University – Cabadbaran Campus (CSUCC)**
 
-### Highlights
-- 🎯 High-accuracy school supplies classification  
-- ⚡ Fast on-device inference (under 2 seconds)  
-- ☁️ Cloud-synced scan history  
+Passionate about building intelligent solutions using mobile AI for everyday tasks.
+
+<br>
+
+### 🛠️ Skills
+
+| Category | Technologies |
+|:---:|:---|
+| **Mobile Dev** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) |
+| **Backend** | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
+| **AI / ML** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![TFLite](https://img.shields.io/badge/TFLite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) |
+
+<br>
+
+📧 **Contact**: [regie.salabit@csucc.edu.ph](mailto:regie.salabit@csucc.edu.ph)  
+🎓 **Project**: ITE120 Final Project  
+
+</div>
+
+<br>
+
+## 📖 About
+
+**SchoolLens** is an intelligent mobile app that uses **TensorFlow Lite** to identify school supplies (notebooks, pens, pencils, erasers, rulers, calculators) through your smartphone camera.  
+
+Built with **Flutter** for smooth cross-platform performance and integrated with **Firebase** for real-time cloud synchronization.
+
+> 🎯 **High accuracy** in school supplies classification  
+> ⚡ **Under 2 seconds** processing time  
+> ☁️ **Cloud-synced** scan history  
 
 ---
 
@@ -35,14 +60,14 @@ The app is built with **Flutter** for smooth cross-platform performance and inte
 | Resource | Description |
 |--------|------------|
 | 💻 **Full Project Code** | Complete Flutter source code including all screens and logic |
-| 🧠 **Assets & Resources** | TensorFlow Lite model, datasets, screenshots, and assets |
+| 🧠 **Assets & Resources** | TensorFlow Lite model, datasets, screenshots, and project assets |
 
 ---
 
 ## ✨ Features
 
 ### 📸 Real-Time Scanning
-Instant identification of school supplies using the device camera with live preview and autofocus.
+Identify school supplies instantly using the device camera with live preview and autofocus.
 
 ### 🤖 AI Classification
 On-device **TensorFlow Lite** model ensures fast, private, and offline-capable recognition.
@@ -61,11 +86,15 @@ Automatic Firebase backup ensures secure data storage and accessibility.
 
 ---
 
-## 🖼 Screenshots
+## 📸 Screenshots
 
-| Home | Scanner | Gallery | Results | Predictions | History |
-|-----|--------|---------|---------|-------------|---------|
-| Dashboard & stats | Live camera scan | Pick from gallery | Accuracy & graph | Probability ranking | Cloud-synced logs |
+<div align="center">
+
+| 🏠 Home | 🖼 Gallery | 📷 Camera | 📜 History |
+|:---:|:---:|:---:|:---:|
+| Dashboard & stats | Image selection from gallery | Live camera scan | Cloud-synced scan logs |
+
+</div>
 
 ---
 
@@ -80,37 +109,11 @@ Automatic Firebase backup ensures secure data storage and accessibility.
 
 ## 🔄 How It Works
 
-1. **Capture** – Take a photo or select an image from the gallery  
-2. **Process** – TensorFlow Lite analyzes image features  
-3. **Classify** – AI predicts the school supply with confidence score  
-4. **Save** – Results are stored automatically in Firebase  
-5. **Track** – View statistics and scan history anytime  
-
----
-
-## 🧩 Screen Details
-
-- 🏠 **Home Dashboard** – Scan overview and statistics  
-- 📷 **Camera Scanner** – Live scanning interface  
-- 🖼 **Gallery Selection** – Choose images from device storage  
-- ✅ **Results & Predictions** – Confidence score and probability chart  
-- 🗂 **Scan History** – Timestamped and cloud-synced records  
-
----
-
-## 🗃 Source Code Overview
-
-- `main.dart` – Main application entry point  
-- `tflite_helper.dart` – AI model loading and inference  
-- `firebase_options.dart` – Firebase configuration  
-
----
-
-## 📬 Contact
-
-📧 **Email:** regie.salabit@csucc.edu.ph  
-🎓 **Project:** ITE120 Final Project  
-
----
-
-> *SchoolLens – Making school supplies recognition smarter with mobile AI.*
+```mermaid
+graph LR
+    A[📱 Launch App] --> B[📸 Capture/Select Image]
+    B --> C[🤖 TFLite Processing]
+    C --> D[✅ AI Classification]
+    D --> E[📊 Display Results]
+    E --> F[☁️ Save to Firebase]
+    F --> G[📜 Update History]
